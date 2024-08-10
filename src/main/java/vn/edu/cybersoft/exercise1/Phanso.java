@@ -32,7 +32,10 @@ public class Phanso {
         return (this.tuso * other.mauso)/(this.mauso * other.tuso);
     }
 
-    public void xuat(){
-        System.out.println("Ket qua phep cong: "+ this.tuso + "/" + this.mauso);
+    public void xuat(Phanso other){
+        System.out.println("Ket qua phep cong: "+ Cong(other));
+        System.out.println("Ket qua phep tru: "+ Tru(other));
+        System.out.println("Ket qua phep nhan: "+ Nhan(other));
+        System.out.println("Ket qua phep chia: "+ Chia(other));
     }
 }
