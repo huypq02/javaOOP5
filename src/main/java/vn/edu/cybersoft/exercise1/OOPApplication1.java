@@ -6,9 +6,6 @@ public class OOPApplication1 {
         phanso.nhap();
         Phanso phanso2 = new Phanso();
         phanso2.nhap();
-        System.out.println("Ket qua phep cong: " + phanso.Cong(phanso2));
-        System.out.println("Ket qua phep tru: " + phanso.Tru(phanso2));
-        System.out.println("Ket qua phep nhan: " + phanso.Nhan(phanso2));
-        System.out.println("Ket qua phep chia: " + phanso.Chia(phanso2));
+        phanso.xuat(phanso2);
     }
 }
